@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BO", "BO", "{199B61BE-2236-4E5F-8B5B-CF3EF5B2BC38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{F1F21809-C743-498A-922A-F9E8FB8B5E37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{98CCD064-7797-4016-B5F6-6FF8CD489559}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{86604832-6A44-4A9F-896B-40267968651D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bryan.BMI.Practice.BO", "Bryan.BMI.Practice.BO\Bryan.BMI.Practice.BO.csproj", "{31CDF566-974C-4495-B89E-018189E55D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bryan.BMI.Practice.Service", "Bryan.BMI.Practice.Service\Bryan.BMI.Practice.Service.csproj", "{E0CE00BD-F79C-4096-83CD-ACBA7A2174D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bryan.BMI.Practice.WinForm", "Bryan.BMI.Practice.WinForm\Bryan.BMI.Practice.WinForm.csproj", "{1EFD1FFE-FC62-4615-B5EB-3EDB4CD56853}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{49A974CB-67F8-4712-B911-7531A541994A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bryan.Practice.DataAccessLayer", "Bryan.Practice.DataAccessLayer\Bryan.Practice.DataAccessLayer.csproj", "{9512A8F1-33E9-4877-9BFC-6F092AB32066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bryan.BMI.Practice.UnitTest", "Bryan.BMI.Practice.UnitTest\Bryan.BMI.Practice.UnitTest.csproj", "{2E67EE49-06D5-41D5-9212-59905787A946}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31CDF566-974C-4495-B89E-018189E55D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31CDF566-974C-4495-B89E-018189E55D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31CDF566-974C-4495-B89E-018189E55D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31CDF566-974C-4495-B89E-018189E55D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0CE00BD-F79C-4096-83CD-ACBA7A2174D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CE00BD-F79C-4096-83CD-ACBA7A2174D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CE00BD-F79C-4096-83CD-ACBA7A2174D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CE00BD-F79C-4096-83CD-ACBA7A2174D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EFD1FFE-FC62-4615-B5EB-3EDB4CD56853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFD1FFE-FC62-4615-B5EB-3EDB4CD56853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFD1FFE-FC62-4615-B5EB-3EDB4CD56853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFD1FFE-FC62-4615-B5EB-3EDB4CD56853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9512A8F1-33E9-4877-9BFC-6F092AB32066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9512A8F1-33E9-4877-9BFC-6F092AB32066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9512A8F1-33E9-4877-9BFC-6F092AB32066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9512A8F1-33E9-4877-9BFC-6F092AB32066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E67EE49-06D5-41D5-9212-59905787A946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E67EE49-06D5-41D5-9212-59905787A946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E67EE49-06D5-41D5-9212-59905787A946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E67EE49-06D5-41D5-9212-59905787A946}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31CDF566-974C-4495-B89E-018189E55D03} = {199B61BE-2236-4E5F-8B5B-CF3EF5B2BC38}
+		{E0CE00BD-F79C-4096-83CD-ACBA7A2174D3} = {F1F21809-C743-498A-922A-F9E8FB8B5E37}
+		{1EFD1FFE-FC62-4615-B5EB-3EDB4CD56853} = {98CCD064-7797-4016-B5F6-6FF8CD489559}
+		{9512A8F1-33E9-4877-9BFC-6F092AB32066} = {49A974CB-67F8-4712-B911-7531A541994A}
+		{2E67EE49-06D5-41D5-9212-59905787A946} = {86604832-6A44-4A9F-896B-40267968651D}
+	EndGlobalSection
+EndGlobal
